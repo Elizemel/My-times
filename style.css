@@ -30,7 +30,7 @@ ul li{
   font-size: 15px;
 }
 /*body*/
-.columnleft, .columnmiddle, .columnright{
+.columnleft, .columnmiddle, .columnright, div{
   border: 1px solid black;
 }
 
@@ -57,12 +57,14 @@ bottom: 40px;
   text-align: center;
 }
 .columnright{
-  width: 300px;
+  width: 350px;
   display: flex;
 }
 .columnleft{
   width: 630px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .fbititle{
   display: flex;
@@ -77,6 +79,39 @@ font-size: 17px;
 color: black;
 }
 .columnright img{
-  width: 1500px;
-  height: auto;
+  width: 300px;
+  height: 300px;
+}
+.orca{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.orcatitle{
+  display: flex;
+  flex-wrap: wrap;
+text-align: center;
+font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: black;
+}
+.burger{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.twostory{
+  display: flex;
+  flex-direction: row;
+}
+.burgertitle{
+  font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: black;
 }

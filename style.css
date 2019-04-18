@@ -6,6 +6,10 @@ header{
   font-weight: bold;
   border-bottom: 3px solid black;
   padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: White;
 }
 .wordslogo{
   color: MediumAquamarine;
@@ -31,11 +35,13 @@ ul li{
 }
 /*body*/
 .columnleft, .columnmiddle, .columnright, div{
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 main{
   display: flex;
+  position: relative;
+  top: 102px;
 }
 
 .mainstorytitle{
@@ -59,6 +65,8 @@ bottom: 40px;
 .columnright{
   width: 350px;
   display: flex;
+  flex-direction:column;
+
 }
 .columnleft{
   width: 630px;
@@ -95,7 +103,7 @@ color: black;
 text-align: center;
 font-family: Georgia;
  font-weight: bold;
- font-size: 30px;
+ font-size: 40px;
  color: black;
 }
 .burger{
@@ -104,6 +112,7 @@ font-family: Georgia;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  font-size: 15px;
 }
 .twostory{
   display: flex;
@@ -112,6 +121,109 @@ font-family: Georgia;
 .burgertitle{
   font-family: Georgia;
  font-weight: bold;
- font-size: 30px;
+ font-size: 40px;
  color: black;
+}
+.earth{
+display: flex;
+height: 300px;
+width: 300px;
+}
+.earthtitle{
+  display: flex;
+background: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
+color: white;
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+text-align: center;
+align-items:  center;
+}
+.research{
+display: flex;
+height: 300px;
+width: 300px;
+
+}
+.researchtitle{
+  display: flex;
+  background: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png');
+
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+text-align: center;
+align-items: center;
+}
+.cat{
+
+}
+.cattitle{
+  display: flex;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png');
+height:300px;
+width:300px;
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+text-align: center;
+align-items: center;
+margin: 0 auto;
+}
+.news{
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+.news li{
+  border-bottom: 1px solid black;
+padding: 9px;
+background-color: WhiteSmoke;
+ font-family: Verdana;
+ font-size: 12px;
+ color: DimGray;
+}
+.news ul{
+  height: 60px;
+  width: 50px;
+  background-color: gray;
+}
+.newsbites{
+  font-size: 22px;
+font-weight: bold;
+text-align: center;
+}
+/*end of main part of site*/
+/*footer*/
+footer{
+  display: flex;
+  background-color: MediumAquamarine;
+margin: auto;
+font-family: Verdana;
+font-size: 12px;
+position: relative;
+top: 75px;
+text-align: center;
+align-items: center;
+height:200px;
+}
+.mytimeslogotwo{
+  font-family: Georgia;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left:400px;
+}
+.copy{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-right: 200px;
+}
+footer ul{
+
+  margin-right:200px;
 }
